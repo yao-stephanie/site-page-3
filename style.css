@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html{
+    font-family: 'Roboto', 'Sans serif';
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+    background-color: #25232f;
+    color: #fff;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.liste-nav{
+    list-style: none;
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    color: #f1f1f1;
+    margin-left: 20px;
+    font-size: 90%;
+}
+
+
+a:hover{
+    font-weight: 700;
+}
+
+.lien-logo{
+    font-family: 'Lato', 'Sans serif';
+    font-weight: 700;
+}
+
+
+
+/* -------SECTION-1-------- */
+
+.section-1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+h1{
+    font-size: 350%;
+    font-family: 'Lato', 'Sans serif';
+    font-weight: 700;
+    word-spacing: 4px;
+}
+
+h4{
+    font-size: 90%;
+    font-family: 'Lato', 'Sans serif';
+    font-weight: 600;
+    word-spacing: 4px;
+}
+
+.bloc-article-1{
+    flex: 1;
+    margin-right: 20px;
+}
+
+.bloc-article-2{
+    flex: 1;
+    margin-left: 50px;
+    position: relative;
+}
+
+.box-paragraphe{
+    width: 500px;
+    margin: 20px 0;
+}
+
+.paragraphe{
+    font-size: 80%;
+    color: #a2a1a9;
+    line-height: 1.5;
+}
+
+.graphe{
+    margin: 15px 0;
+}
+
+
+.small-card{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+
+.small-text{
+    width: 150px;
+    height: 150px;
+    background-color: #302e3a;
+    border-radius: 10px;
+    padding: 50px 0 0px 10px;
+}
+
+.images{
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.btn{
+    padding: 15px 30px;
+    margin-top: 15px;
+    border-radius: 5px;
+    border: none;
+    
+}
+
+.btn a{
+    color: #46454d;
+    margin: 0;
+    font-size: 110%;
+    text-transform: capitalize;
+    font-weight:600;
+}
+
+
+/* --------section-2------- */
+
+.image-couloire{
+    height: 500px;
+}
+
+
+.image-bureau{
+    margin-top: 40px;
+}
+
+.btn-full{
+    position: absolute;
+   bottom: -10px;
+    right: 10%;
+}
+
+
+/* ------section-3-------- */
+
+.illustration{
+    background-color: #302e3a;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+h3{
+    font-size: 160%;
+    font-family: 'Lato', 'Sans serif';
+    font-weight: 600;
+    word-spacing: 4px; 
+}
+
+span{
+    font-size: 160%;
+    font-weight: 600;
+}
+
+.bloc-title{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+
+.images-title{
+    border-top-left-radius: 0;
+    border-top-right-radius:0 ;
+}
+
+
+.title-2{
+    height: 470px;
+}
+
+
+
+/* ------section------ */
+
+
+.sect{
+    display: block;
+}
+
+
+.information{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+
+.illustre{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+
+.illustre-man{
+    width: 350px;
+}
+
+
+.images-man{
+    border-radius: 0;
+    height: 400px;
+    margin-bottom: 10px;
+}
+
+
+/* ------dernière section-------- */
+
+
+.icons{
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+}
+
+
+.liens{
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 110%;
+}
+
+
+.bloc-icon{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+
+.tex-bottom{
+    margin-top: 80px;
+}
+
+
+
+/* --------footer------ */
+
+
+footer{
+    background-color:#302e3a;
+    margin: 40px;
+    width: 100%;
+    margin: 0;
+}
